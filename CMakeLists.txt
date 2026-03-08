@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.20)
 project(lmshader)
 
-find_package(glfw)
-find_package(glm)
+find_package(glfw REQUIRED)
+find_package(glm REQUIRED)
 
 add_library(lmshader src/shaders.cpp)
 
